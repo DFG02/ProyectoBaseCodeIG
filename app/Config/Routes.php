@@ -10,3 +10,4 @@ $routes->get('/RutaLogin', 'Home::index');
 $routes->get('/RutaCompras', 'Home::compras');
 $routes->get('/Compras', 'CIndex::indexc');
 $routes->get('/Login', 'LIndex::indexl');
+$routes->get('/Mylogin', 'MLogin::MyLogin');
